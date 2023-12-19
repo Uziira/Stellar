@@ -18,7 +18,7 @@ body {
 .title {
     position: absolute;
     color: white;
-    font-size: 2rem;
+    font-size: 4rem;
     left: 44%;
     z-index: 2;
 }
