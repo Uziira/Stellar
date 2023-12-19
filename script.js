@@ -1,3 +1,3 @@
 if (window.innerWidth <= 1100) {
-    alert("L'expérience sur téléphone n'est pas optimale. Nous vous recommandons de visiter le site depuis un ordinateur.");
+    alert("The phone experience is not optimal. We recommend that you visit the site from a computer.");
 }
