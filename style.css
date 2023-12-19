@@ -22,7 +22,7 @@ body {
     left: 41%;
     z-index: 2;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
     .title {
         position: absolute;
         left: 24%;
@@ -48,7 +48,7 @@ body {
     z-index: 2;
     left: 27%;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
     .informationText {
         position: absolute;
         left: 5%;
@@ -77,12 +77,12 @@ body {
         top: 25%;
     }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
     .solarSystem {
         position: absolute;
         left: 30%;
         font-size: 1rem;
-        top: 20rem;
+        top: 30%;
     }
 }
 .stars {
@@ -93,12 +93,12 @@ body {
     font-size: 130%;
     z-index: 2;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
     .stars {
         position: absolute;
         left: 40%;
         font-size: 1rem;
-        top: 40rem;
+        top: 65%;
     }
 }
 @media screen and (min-width: 1650px) {
@@ -114,12 +114,12 @@ body {
     left: 15%;
     border-radius: 1.2rem;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
     #solarSystemImage {
         position: absolute;
         left: 10%;
         width: 20rem;
-        top: 44%;
+        top: 40%;
     }
 }
 #starsImage {
@@ -129,12 +129,12 @@ body {
     left: 56%;
     border-radius: 1.2rem;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
     #starsImage {
         position: absolute;
         left: 10%;
         width: 20rem;
-        top: 80%;
+        top: 75%;
     }
 }
 .blackHole {
@@ -152,12 +152,12 @@ body {
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
     .blackHole {
         position: absolute;
         left: 30%;
         font-size: 1rem;
-        top: 60rem;
+        top: 100%;
     }
 }
 .galaxy {
@@ -168,12 +168,12 @@ body {
     font-size: 130%;
     z-index: 2;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
     .galaxy {
         position: absolute;
         left: 35%;
         font-size: 1rem;
-        top: 78rem;
+        top: 133%;
     }
 }
 @media screen and (min-width: 1650px) {
@@ -189,12 +189,12 @@ body {
     left: 15%;
     border-radius: 1.2rem;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
     #blackHoleImage {
         position: absolute;
         left: 10%;
         width: 20rem;
-        top: 115%;
+        top: 110%;
     }
 }
 @media screen and (min-width: 1650px) {
@@ -209,12 +209,12 @@ body {
     left: 56%;
     border-radius: 1.2rem;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
     #galaxieImage {
         position: absolute;
         left: 10%;
         width: 20rem;
-        top: 145%;
+        top: 143%;
     }
 }
 @media screen and (min-width: 1650px) {
