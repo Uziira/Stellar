@@ -3,11 +3,11 @@ if (window.innerWidth <= 1500) {
 }
 
 const typed = new Typed('#animatedTitle', {
-      strings: ['Stellar'],
+      strings: ['<strong>Stellar</strong>'],
       typeSpeed: 100,
     });
 
 const typed2 = new Typed('#informationText', {
     strings: ['Explore the infinite mystery of the universe and share our passion for space exploration'],
-    typeSpeed: 50,
+    typeSpeed: 40,
   });
