@@ -19,10 +19,10 @@ body {
     position: absolute;
     color: white;
     font-size: 2rem;
-    left: 41%;
+    left: 44%;
     z-index: 2;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 450px) {
     .title {
         position: absolute;
         left: 24%;
@@ -33,7 +33,7 @@ body {
 @media screen and (min-width: 1650px) {
     .title {
         position: absolute;
-        left: 43%;
+        left: 45%;
     }
 }
 .informationText {
@@ -48,7 +48,7 @@ body {
     z-index: 2;
     left: 27%;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 450px) {
     .informationText {
         position: absolute;
         left: 5%;
@@ -77,7 +77,7 @@ body {
         top: 25%;
     }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 450px) {
     .solarSystem {
         position: absolute;
         left: 30%;
@@ -93,7 +93,7 @@ body {
     font-size: 130%;
     z-index: 2;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 450px) {
     .stars {
         position: absolute;
         left: 40%;
@@ -114,7 +114,7 @@ body {
     left: 15%;
     border-radius: 1.2rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 450px) {
     #solarSystemImage {
         position: absolute;
         left: 10%;
@@ -129,7 +129,7 @@ body {
     left: 56%;
     border-radius: 1.2rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 450px) {
     #starsImage {
         position: absolute;
         left: 10%;
@@ -151,8 +151,7 @@ body {
         top: 73%;
     }
 }
-
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 450px) {
     .blackHole {
         position: absolute;
         left: 30%;
@@ -168,7 +167,7 @@ body {
     font-size: 130%;
     z-index: 2;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 450px) {
     .galaxy {
         position: absolute;
         left: 35%;
@@ -189,7 +188,7 @@ body {
     left: 15%;
     border-radius: 1.2rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 450px) {
     #blackHoleImage {
         position: absolute;
         left: 10%;
@@ -209,12 +208,12 @@ body {
     left: 56%;
     border-radius: 1.2rem;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 450px) {
     #galaxieImage {
         position: absolute;
         left: 10%;
         width: 20rem;
-        top: 143%;
+        top: 120%;
     }
 }
 @media screen and (min-width: 1650px) {
