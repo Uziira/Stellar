@@ -139,7 +139,7 @@ body {
 #solarSystemImage {
     position: absolute;
     width: 30%;
-    top: 25rem;
+    top: 35%;
     left: 15%;
     border-radius: 1.2rem;
 }
@@ -161,7 +161,7 @@ body {
 #starsImage {
     position: absolute;
     width: 30%;
-    top: 25rem;
+    top: 35%;
     left: 56%;
     border-radius: 1.2rem;
 }
@@ -183,16 +183,10 @@ body {
 .blackHole {
     color: white;
     position: absolute;
-    top: 83%;
-    left: 22%;
+    left: 25%;
     font-size: 130%;
     z-index: 2;
-}
-@media screen and (min-width: 1650px) {
-    .blackHole {
-        left: 26%;
-        top: 73%;
-    }
+    top: 80%;
 }
 @media only screen and (max-width: 450px) {
     .blackHole {
@@ -220,8 +214,8 @@ body {
 }
 @media screen and (min-width: 1650px) {
     .galaxy {
-        left: 68%;
-        top: 73%;
+        left: 67%;
+        top: 80%;
     }
 }
 @media screen and (min-width: 2000px) {
@@ -253,7 +247,7 @@ body {
 }
 @media screen and (min-width: 1650px) {
     #blackHoleImage {
-        top: 80%;
+        top: 92%;
     }
 }
 @media screen and (min-width: 2000px) {
@@ -280,7 +274,7 @@ body {
 }
 @media screen and (min-width: 1650px) {
     #galaxieImage {
-        top: 80%;
+        top: 92%;
     }
 }
 @media screen and (min-width: 2000px) {
