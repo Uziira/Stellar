@@ -36,6 +36,12 @@ body {
         left: 45%;
     }
 }
+@media screen and (min-width: 2000px) {
+    .title {
+        position: absolute;
+        left: 45%;
+    }
+}
 .informationText {
     color: white;
     position: absolute;
@@ -46,7 +52,8 @@ body {
     width: 50%;
     font-weight: 700;
     z-index: 2;
-    left: 27%;
+    margin-left: 18%;
+    margin-right: 25%;
 }
 @media only screen and (max-width: 450px) {
     .informationText {
@@ -60,7 +67,23 @@ body {
 @media screen and (min-width: 1650px) {
     .informationText {
         position: absolute;
-        left: 35%;
+        left: 5%;
+    }
+}
+@media screen and (min-width: 2000px) {
+    .informationText {
+        margin-left: 25%;
+        margin-right: 23%;
+    }
+}
+@media screen and (max-width: 2500px) {
+    .informationText {
+        left: 10%;
+    }
+}
+@media screen and (min-width: 2550px) {
+    .informationText {
+        left: 10%;
     }
 }
 .solarSystem {
@@ -107,6 +130,12 @@ body {
         top: 25%;
     }
 }
+@media screen and (min-width: 2000px) {
+    .stars {
+        position: absolute;
+        margin-left: -1%;
+    }
+}
 #solarSystemImage {
     position: absolute;
     width: 30%;
@@ -122,6 +151,13 @@ body {
         top: 40%;
     }
 }
+@media screen and (min-width: 2000px) {
+    #solarSystemImage {
+        position: absolute;
+        width: 28%;
+        top: 34%;
+    }
+}
 #starsImage {
     position: absolute;
     width: 30%;
@@ -135,6 +171,13 @@ body {
         left: 10%;
         width: 20rem;
         top: 75%;
+    }
+}
+@media screen and (min-width: 2000px) {
+    #starsImage {
+        position: absolute;
+        width: 28%;
+        top: 34%;
     }
 }
 .blackHole {
@@ -181,6 +224,18 @@ body {
         top: 73%;
     }
 }
+@media screen and (min-width: 2000px) {
+    .galaxy {
+        position: absolute;
+        margin-left: -1%;
+    }
+}
+@media screen and (min-width: 2000px) {
+    .stars {
+        position: absolute;
+        margin-left: -1%;
+    }
+}
 #blackHoleImage {
     position: absolute;
     width: 30%;
@@ -201,6 +256,13 @@ body {
         top: 80%;
     }
 }
+@media screen and (min-width: 2000px) {
+    #blackHoleImage {
+        position: absolute;
+        width: 28%;
+        top: 82%;
+    }
+}
 #galaxieImage {
     position: absolute;
     width: 30%;
@@ -219,5 +281,12 @@ body {
 @media screen and (min-width: 1650px) {
     #galaxieImage {
         top: 80%;
+    }
+}
+@media screen and (min-width: 2000px) {
+    #galaxieImage {
+        position: absolute;
+        width: 28%;
+        top: 82%;
     }
 }
