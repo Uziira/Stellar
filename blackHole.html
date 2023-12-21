@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Black Hole</title>
 </head>
 <style>
-    .backgroundBlackHole {
-    position: fixed;
+  body {
+    background-color: black;
+  }
+.backgroundBlackHole {
     top: 0;
     left: 0;
     width: 100%;
@@ -15,10 +18,39 @@
     overflow: hidden;
   }
 #backgroundVideoBlackHole {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+      width: 100%;
+      height: 90%;
+      object-fit: cover;
+    }
+.case {
+      width: 50%;
+      color: white;
+      padding: 20px;
+      cursor: pointer;
+      z-index: 2s;
+      position: absolute;
+      top: 100%;
+}
+.contenu {
+    display: flex;
+    z-index: 2s;
+    position: absolute;
+    width: 50%;
+    font-size: 1.5rem;
+}
+.text {
+    flex: 1;
+    z-index: 2s;
+    position: absolute;
+}
+.texteCache {
+    display: none;
+    padding: 20px;
+    color: white;
+    margin-top: 1%;
+    z-index: 2s;
+    position: absolute;
+}
 </style>
 <body>
     <div class="backgroundBlackHole">
@@ -26,6 +58,27 @@
           <source src="black hole(Original).mp4" type="video/mp4">
           Votre navigateur ne prend pas en charge la balise vidéo.
         </video>
+    </div>
+
+
+    <div class="case" onclick="afficherTexte()">
+      <div class="contenu">
+        <div class="text"> How Black Holes are created</div>
+        <i class="fas fa-arrow-down"></i>
       </div>
-</body>
+      <div class="texteCache" id="texteCaché">
+        masha allah
+      </div>
+    </div>
+    
+    <script>
+    function afficherTexte() {
+      var texte = document.getElementById("texteCaché");
+      texte.style.display = (texte.style.display === "none" || texte.style.display === "") ? "block" : "none";
+      var arrow = document.querySelector(".case i");
+      arrow.classList.toggle("fa-arrow-down");
+      arrow.classList.toggle("fa-arrow-up");
+    }
+    </script>
+
 </html>
